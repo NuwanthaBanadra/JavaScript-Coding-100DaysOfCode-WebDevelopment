@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Color Mixer Tool</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>🎨 Color Mixer Tool</h1>
+
+        <div class="inputs">
+            <div>
+                <label for="color1">Color 1</label>
+                <input type="color" id="color1" value="#ff0000">
+            </div>
+
+            <div>
+                <label for="color2">Color 2</label>
+                <input type="color" id="color2" value="#0000ff">
+            </div>
+        </div>
+
+        <button onclick="mixColors()">Mix Colors</button>
+
+        <div class="result">
+            <p>Mixed Color:</p>
+            <div id="mixedColor" class="color-box"></div>
+            <p id="hexCode"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

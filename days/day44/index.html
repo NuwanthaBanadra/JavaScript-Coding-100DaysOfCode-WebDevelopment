@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emoji Mood Board</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+    <body>
+        <div class="container">
+            <h1>😄 Emoji Mood Board</h1>
+
+            <select id="emojiPicker">
+                <option value="😀">😀</option>
+                <option value="😂">😂</option>
+                <option value="😍">😍</option>
+                <option value="😎">😎</option>
+                <option value="🤯">🤯</option>
+                <option value="😴">😴</option>
+                <option value="👻">👻</option>
+                <option value="💡">💡</option>
+                <option value="🔥">🔥</option>
+                <option value="🎉">🎉</option>
+            </select>
+            <button onclick="addEmoji()">Add Emoji</button>
+            <button onclick="clearBoard()">🧹 Clear</button>
+
+            <div id="canvas"></div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>

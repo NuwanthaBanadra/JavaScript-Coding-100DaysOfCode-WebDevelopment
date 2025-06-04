@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>RGB Color Mixer</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>🎨 RGB Color Mixer</h1>
+        <div class="sliders">
+            <label>Red: <input type="range" id="red" min="0" max="255" value="128" /></label>
+            <label>Green: <input type="range" id="green" min="0" max="255" value="128" /></label>
+            <label>Blue: <input type="range" id="blue" min="0" max="255" value="128" /></label>
+        </div>
+        <div class="color-preview" id="colorBox"></div>
+        <p>Hex: <span id="hexCode">#808080</span> <button onclick="copyHex()">📋 Copy</button></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

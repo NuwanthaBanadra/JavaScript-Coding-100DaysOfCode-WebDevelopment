@@ -1,0 +1,59 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #3498db;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#qrBox {
+    margin-top: 20px;
+}
+
+#qrBox img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+#downloadLink {
+    display: inline-block;
+    text-decoration: none;
+    background: #2ecc71;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none;
+}

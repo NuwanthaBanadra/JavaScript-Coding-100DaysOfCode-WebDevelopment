@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Receipt Generator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="receipt-container">
+        <h1>🧾 Receipt Generator</h1>
+        <label>Customer Name: <input type="text" id="customerName" /></label>
+
+        <div id="items">
+            <div class="item-row">
+                <input type="text" placeholder="Item name" class="item" />
+                <input type="number" placeholder="Qty" class="qty" />
+                <input type="number" placeholder="Price" class="price" />
+            </div>
+        </div>
+
+        <button onclick="addItem()">➕ Add Item</button>
+        <button onclick="generateReceipt()">🧾 Generate</button>
+
+        <div id="receipt"></div>
+        <button onclick="window.print()" class="print-btn">🖨 Print</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

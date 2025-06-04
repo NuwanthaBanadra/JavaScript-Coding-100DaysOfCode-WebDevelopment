@@ -1,0 +1,96 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.balance h3 {
+    margin: 0;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.money {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.plus {
+    color: green;
+}
+
+.minus {
+    color: red;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,
+button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.list li {
+    background: #f7f7f7;
+    padding: 10px;
+    margin: 8px 0;
+    border-right: 5px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.list li.plus {
+    border-color: green;
+}
+
+.list li.minus {
+    border-color: red;
+}
+
+.delete-btn {
+    background: none;
+    color: red;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}

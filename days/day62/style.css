@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background: #f0f8ff;
+    padding: 20px;
+}
+
+.game {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.items,
+.categories {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.draggable {
+    padding: 10px 20px;
+    background-color: #fff5b1;
+    border: 2px solid #ccc;
+    cursor: grab;
+}
+
+.drop-zone {
+    padding: 30px;
+    background-color: #e0e0e0;
+    border: 2px dashed #aaa;
+}
+
+.drop-zone.correct {
+    background-color: #c8e6c9;
+}
+
+.drop-zone.incorrect {
+    background-color: #ffcdd2;
+}

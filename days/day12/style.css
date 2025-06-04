@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background 0.5s, color 0.5s;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    background: #28a745;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #218838;
+}
+
+/* Light Mode */
+body.light-mode {
+    background: white;
+    color: black;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background: #222;
+    color: white;
+}

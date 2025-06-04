@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0d1117;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    background: #161b22;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.1);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+#strengthBar {
+    height: 10px;
+    width: 100%;
+    background: #444;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background 0.3s ease;
+}
+
+#strengthText {
+    font-weight: bold;
+}

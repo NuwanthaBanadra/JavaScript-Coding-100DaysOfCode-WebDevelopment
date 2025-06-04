@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji Mood Recommender</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>😄 Emoji Mood Recommender</h1>
+        <p>How are you feeling today?</p>
+        <div class="mood-buttons">
+            <button onclick="showEmojis('happy')">😊 Happy</button>
+            <button onclick="showEmojis('sad')">😢 Sad</button>
+            <button onclick="showEmojis('angry')">😠 Angry</button>
+            <button onclick="showEmojis('excited')">🤩 Excited</button>
+            <button onclick="showEmojis('chill')">😎 Chill</button>
+        </div>
+        <div id="emojiBox" class="emoji-box"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

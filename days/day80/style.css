@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background: #f0f0f0;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    gap: 10px;
+    justify-content: center;
+    margin: auto;
+}
+
+.square {
+    width: 80px;
+    height: 80px;
+    background: #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.square.revealed {
+    cursor: default;
+}

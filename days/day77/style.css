@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f9f9f9;
+    padding: 40px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+#previewText {
+    font-size: 3rem;
+    transition: text-shadow 0.3s ease;
+    margin-bottom: 30px;
+}
+
+.controls {
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+}
+
+label {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

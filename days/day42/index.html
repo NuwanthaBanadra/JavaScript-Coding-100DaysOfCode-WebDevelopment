@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Contrast Checker</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>🎨 Color Contrast Checker</h1>
+
+        <label>Text Color</label>
+        <input type="color" id="textColor" value="#000000">
+
+        <label>Background Color</label>
+        <input type="color" id="bgColor" value="#ffffff">
+
+        <div class="preview" id="previewText">Sample Text</div>
+
+        <p>Contrast Ratio: <span id="contrastRatio">--</span></p>
+        <p id="accessibilityResult">--</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

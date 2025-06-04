@@ -1,0 +1,104 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+    color: white;
+    margin: 0;
+    transition: background 0.3s, color 0.3s;
+}
+
+.container {
+    text-align: center;
+}
+
+/* Clock Styling */
+.clock {
+    width: 200px;
+    height: 200px;
+    border: 6px solid white;
+    border-radius: 50%;
+    position: relative;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+.hand {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: bottom;
+    transition: transform 0.1s linear;
+}
+
+.hour-hand {
+    width: 6px;
+    height: 50px;
+    background: white;
+    border-radius: 4px;
+}
+
+.minute-hand {
+    width: 4px;
+    height: 70px;
+    background: white;
+    border-radius: 4px;
+}
+
+.second-hand {
+    width: 2px;
+    height: 80px;
+    background: red;
+    border-radius: 4px;
+}
+
+/* Center Dot */
+.center-dot {
+    width: 10px;
+    height: 10px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+}
+
+/* Light Mode */
+.light-mode {
+    background: white;
+    color: black;
+}
+
+.light-mode .clock {
+    border-color: black;
+    background: #f0f0f0;
+}
+
+.light-mode .hand {
+    background: black;
+}
+
+.light-mode .second-hand {
+    background: red;
+}
+
+/* Button Styling */
+button {
+    background: #28a745;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #218838;
+}

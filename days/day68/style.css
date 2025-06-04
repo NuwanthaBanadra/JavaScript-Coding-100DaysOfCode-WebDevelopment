@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #202124;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #303134;
+    padding: 25px;
+    border-radius: 12px;
+    width: 350px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.options label {
+    display: block;
+    margin: 10px 0;
+}
+
+.output {
+    display: flex;
+    margin-top: 15px;
+}
+
+#password {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.output button {
+    background: #00bfa5;
+    border: none;
+    padding: 0 10px;
+    color: white;
+    cursor: pointer;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    background-color: #00bfa5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#strength {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#strengthText {
+    color: yellow;
+}

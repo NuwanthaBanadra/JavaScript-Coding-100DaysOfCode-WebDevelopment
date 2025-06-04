@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drag and Drop Match Game</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1>🧩 Match the Items</h1>
+    <div class="game">
+        <div class="items">
+            <div class="draggable" draggable="true" id="apple">Apple</div>
+            <div class="draggable" draggable="true" id="tiger">Tiger</div>
+            <div class="draggable" draggable="true" id="banana">Banana</div>
+            <div class="draggable" draggable="true" id="lion">Lion</div>
+        </div>
+
+        <div class="categories">
+            <div class="drop-zone" data-category="fruit">Fruits</div>
+            <div class="drop-zone" data-category="animal">Animals</div>
+        </div>
+    </div>
+
+    <p id="result"></p>
+    <button onclick="resetGame()">🔁 Reset</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
