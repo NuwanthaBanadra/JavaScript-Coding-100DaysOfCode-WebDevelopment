@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background: #e0f7fa;
+    margin: 0;
+    padding: 20px;
+}
+
+#gameArea {
+    margin: 20px auto;
+    width: 300px;
+    height: 300px;
+    border: 2px dashed #00796b;
+    position: relative;
+    overflow: hidden;
+    background: #b2dfdb;
+}
+
+.bubble {
+    position: absolute;
+    background: #4db6ac;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+    animation: floatUp 4s linear forwards;
+}
+
+@keyframes floatUp {
+    0% {
+        top: 100%;
+    }
+
+    100% {
+        top: -60px;
+    }
+}
