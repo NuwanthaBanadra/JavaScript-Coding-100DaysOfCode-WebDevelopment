@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Quick Math Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1>🧠 Quick Math Quiz</h1>
+    
+    <div id="gameBox">
+        <p id="question">What is 1 + 1?</p>
+        <input type="number" id="answer" placeholder="Your answer" />
+        <button onclick="submitAnswer()">Submit</button>
+        <p>⏱ Time Left: <span id="timer">5</span>s</p>
+        <p>✅ Score: <span id="score">0</span></p>
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
